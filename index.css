@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+style {
+  display: block;
+}
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: bisque;
+}
+.sticky {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  position: sticky;
+  top: 50px;
+  left: 10px;
+}
+.content {
+  width: 500px;
+  height: 1000px;
+  background-color: aqua;
+}
+.header {
+  min-height: 100px;
+  background-color: aqua;
+}
+#header {
+  background-color: red;
+}
+
+.main {
+  height: 2000px;
+  background-color: beige;
+}
+.footer {
+  min-height: 150px;
+  background-color: blueviolet;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
